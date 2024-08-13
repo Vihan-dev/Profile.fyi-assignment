@@ -1,0 +1,36 @@
+.card {
+  background-color: white;
+  padding: 20px 10px;
+  border: 1px solid #e0dada;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.card img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 5px;
+}
+
+.add-to-cart-btn {
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #2adb2a;
+}
+
+.popup-msg {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-color: black;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 0 35px;
+  width: fit-content;
+}

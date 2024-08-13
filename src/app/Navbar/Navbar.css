@@ -1,0 +1,20 @@
+.main-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: #1d3966;
+  padding: 10px;
+  font-size: 25px;
+  border-bottom: 1px solid #e0dada;
+}
+
+.main-navbar div {
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .cart-btn {
+    display: none;
+  } 
+}
